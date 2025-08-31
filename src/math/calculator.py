@@ -12,7 +12,7 @@ class Calculator:
             int | float: The sum of a and b.
         """
 
-        raise NotImplementedError()
+        return a + b
 
     @staticmethod
     def subtract(a: int | float, b: int | float) -> int | float:
@@ -27,7 +27,7 @@ class Calculator:
             int | float: The result of a - b.
         """
 
-        raise NotImplementedError()
+        return a - b
 
     @staticmethod
     def multiply(a: int | float, b: int | float) -> int | float:
@@ -42,7 +42,7 @@ class Calculator:
             int | float: The product of a and b.
         """
 
-        raise NotImplementedError()
+        return a * b
 
     @staticmethod
     def divide(a: int | float, b: int | float) -> float:
@@ -60,4 +60,4 @@ class Calculator:
             float: The result of a / b.
         """
 
-        raise NotImplementedError()
+        return a / b
