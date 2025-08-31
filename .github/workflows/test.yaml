@@ -20,4 +20,4 @@ jobs:
   test-format:
     uses: zhijie-yang/code-assignment-evaluator/.github/workflows/evaluate.yaml@main
     with:
-      test: false
+      format: true
