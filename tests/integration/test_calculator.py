@@ -2,6 +2,7 @@ import pytest
 
 from src.math.calculator import Calculator as C
 
+
 class TestCalculatorIntegration:
     def test_complex_operations(self):
         result = C.add(5, 3)
