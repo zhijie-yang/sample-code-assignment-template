@@ -1,0 +1,9 @@
+name: Test
+on: 
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    uses: zhijie-yang/code-assignment-evaluator/.github/workflows/evaluate.yaml@main
