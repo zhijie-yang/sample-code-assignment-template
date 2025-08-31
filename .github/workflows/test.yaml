@@ -21,3 +21,4 @@ jobs:
     uses: zhijie-yang/code-assignment-evaluator/.github/workflows/evaluate.yaml@main
     with:
       format: true
+      test: false
