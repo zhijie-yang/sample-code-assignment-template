@@ -2,6 +2,7 @@ import pytest
 
 from src.math.calculator import Calculator as C
 
+
 class TestCalculator:
     @pytest.mark.parametrize(
         "a, b, expected",
