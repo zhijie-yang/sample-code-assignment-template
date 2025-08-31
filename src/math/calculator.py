@@ -54,7 +54,7 @@ class Calculator:
             b (int | float): Operand b.
 
         Raises:
-            ValueError: Upon division by zero.
+            ZeroDivisionError: Upon division by zero.
 
         Returns:
             float: The result of a / b.

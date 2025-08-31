@@ -63,5 +63,5 @@ class TestCalculator:
         ],
     )
     def test_divide_by_zero(self, a, b):
-        with pytest.raises(ValueError):
+        with pytest.raises(ZeroDivisionError):
             C.divide(a, b)
